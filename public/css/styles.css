@@ -2,6 +2,30 @@ body {
     background-color: #CBE2F6;
     text-align: center;
 }
+
+
+#solarSystem{
+    width: 90%;
+    border-radius: 25px;
+}
+
 #mercury{
+    width: 70%;
+    border-radius: 25px;
+}
+#venus{
     width: 40%;
+    border-radius: 25px;
+}
+#earth{
+    width: 40%;
+    border-radius: 25px;
+}
+.row{
+    text-align: right;
+}
+p{
+   margin: 0px auto;
+   width: 60%;
+  
 }

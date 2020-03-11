@@ -1,8 +1,26 @@
 <%- include('partials/header'); -%>
-        <h1> Welcome to venus</h1>
-        
-        <a href="/"> Home </a><br>
-        <a href="/mercury"> Mercury </a>
-        Earth <br>
-   <%- include('partials/footer'); -%>
+<%- include('partials/navBar'); -%>
+<div class="jumbotron text-center">
+    <h1> Welcome to Venus</h1>
+</div>
+<div class="container text-center">
+    <img src="/img/venus.jpg" id="venus" alt="Venus" ></img>
+    <p>
+            Venus is the second planet from the Sun and our closest planetary
+            neighbor. Similar in structure and size to Earth, Venus spins slowly
+            in the opposite direction from most planets. Its thick atmosphere traps
+            heat in a runaway greenhouse effect, making it the hottest planet in our
+            solar system with surface temperatures hot enough to melt lead. Glimpses
+            below the clouds reveal volcanoes and deformed mountains. Venus is named
+            for the ancient Roman goddess of love and beauty, who was known as
+            Aphrodite to the Ancient Greeks..
+            (<a href="https://solarsystem.nasa.gov/planets/venus/in-depth/" target="_blank">Ref.</a>)
+    </p>
+</div>
+
+<script>
+        $("#navVenus").addClass("active");
+</script>
+</body>
+<%- include('partials/footer'); -%>
 </html>

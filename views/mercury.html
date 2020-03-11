@@ -1,8 +1,16 @@
 <%- include('partials/header'); -%>
-        <h1> Welcome to venus</h1>
-        <img src="/img/mercury.jpg" id="mercury" alt="The Solar System" ></img><br/>
-        <a href="/"> Home </a><br>
-        <a href="/venus"> Venus </a>
-        Earth <br>
+<%- include('partials/navBar'); -%>
+<div class="jumbotron text-center">
+    <h1> Welcome to Mercury</h1>
+</div>
+<div class="container text-center">
+    <img src="/img/mercury.jpg" id="mercury" alt="The Solar System" ></img>
+    <p>The smallest planet in our solar system and nearest to the Sun, Mercury is only slightly larger than Earth's Moon.</p>
+</div>
+        
+<script>
+    $("#navMercury").addClass("active");
+</script>
+</body>
 <%- include('partials/footer'); -%>
 </html>
