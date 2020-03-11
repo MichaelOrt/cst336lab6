@@ -16,6 +16,9 @@ app.get("/venus", function(req, res){
 app.get("/earth", function(req, res){
     res.render('../views/earth.html');
 });
+app.get("/mars", function(req, res){
+    res.render('../views/mars.html');
+});
 //server listener
 
 app.listen(process.env.PORT, process.env.IP, function(){
